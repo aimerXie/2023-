@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+class SplitWeight{
+	int weight[26];
+};
+public:
+	SplitWeight(const char str[]){
+		weight=0;
+	
+	int* getSplit(){
+	}
+};
+
+
+class StringWeight{
+	const atd::string x;
+public:
+	StringWeight(const char str[])x(str){
+	}
+	int getWeights(){
+		//对x分配权重 
+		SplitWeight sw(x);
+		sw.???
+	}
+}; 
+int main(){
+	StringWeight x("abc");
+	std::cout<<x.getWeights();
+}
